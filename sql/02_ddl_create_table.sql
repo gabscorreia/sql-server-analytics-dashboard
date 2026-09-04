@@ -12,3 +12,8 @@ nm_alavanca varchar(25),
 nm_categoria varchar(25),
 nm_tipo varchar(20)
 );
+
+CREATE TABLE tb_canal(
+id_canal int PRIMARY KEY,
+nome_canal char(10),
+);
