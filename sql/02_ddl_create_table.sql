@@ -17,3 +17,10 @@ CREATE TABLE tb_canal(
 id_canal int PRIMARY KEY,
 nome_canal char(10),
 );
+EXEC sp_rename 'tb_canal.nome_canal', 'nm_canal', 'COLUMN';
+
+CREATE TABLE tb_cliente(
+id_cliente int PRIMARY KEY,
+nm_cliente varchar(68),
+ds_tipoCliente varchar(20),
+);
