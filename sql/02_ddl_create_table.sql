@@ -47,3 +47,6 @@ vl_desconto DECIMAL(10,2) DEFAULT 0.00,
   CONSTRAINT FK_item_pedido FOREIGN KEY (id_pedido) REFERENCES tb_pedido(id_pedido),
     CONSTRAINT FK_item_alavanca FOREIGN KEY (id_alavanca) REFERENCES tb_alavanca(id_alavanca)
 );
+
+ALTER TABLE tb_canal 
+ALTER COLUMN nm_canal VARCHAR(30) NOT NULL;
