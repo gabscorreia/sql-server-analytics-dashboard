@@ -1,1 +1,2 @@
 EXEC sp_processar_carga_cliente;
+EXEC sp_processar_carga_produto;
