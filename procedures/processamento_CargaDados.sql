@@ -1,0 +1,1 @@
+EXEC sp_processar_carga_cliente;
