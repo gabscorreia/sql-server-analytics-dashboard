@@ -1,2 +1,6 @@
 EXEC sp_processar_carga_cliente;
 EXEC sp_processar_carga_produto;
+EXEC sp_processar_carga_pedido;
+EXEC sp_processar_carga_vendedor;
+EXEC sp_processar_carga_item_pedido;
+EXEC sp_processar_carga_pagamento;
